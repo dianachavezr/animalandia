@@ -1,0 +1,27 @@
+
+
+.menu{
+	background-color: #752995;
+}
+.item{
+	width: 140px;
+	background-color: #752995;
+	display: table-cell;
+	padding: 15px; 
+	margin:0;	
+}
+.item a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+.item a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+.active{
+	font-weight: bolder;
+    background-color: red;
+}

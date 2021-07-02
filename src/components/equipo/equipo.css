@@ -1,0 +1,97 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	box-sizing: border-box;
+}
+
+.equipo{
+	display: flex;
+	grid-template-columns: columns;
+}
+
+
+.blanco2{
+	margin: 3rem 0;
+	color: #752995;
+  border: 1px solid #752995;
+  font-weight: bold;
+	float: left;
+	border-radius: 4px;
+}
+
+.blanco2:hover{
+
+  color: #FFFFFF;
+  background-color: #752995;
+  border-color: #752995;
+}
+
+.principal{
+
+	background-image: url("../../assets/images/fondo.jpg");
+	padding: 30px;
+	box-shadow: 0px 3px 3px #000000;
+	max-width: 60%;
+	height: 22rem;
+	display: inline-block;
+	text-align: justify;
+
+}
+
+.parrafo{
+width: 100%;
+
+}
+
+
+.btn-blanco2{
+	margin: 3rem 2rem 0 0;
+	color: #752995;
+  border: 1px solid #752995;
+  font-weight: bold;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.btn-blanco2:hover{
+
+  color: #FFFFFF;
+  background-color: #752995;
+  border-color: #752995;
+}
+
+.principal2{
+
+padding: 25px;
+background-color: #752995;
+box-shadow: 0px 3px 3px #000000;
+text-align: center;
+height: 21.6rem;
+float: right;
+width: 40%;
+margin-top: 6px;
+}
+
+.principal2 img{
+	margin-top: 10px;
+	border-radius: 100%;
+	border:6px solid #FFFFFF;
+	width: 250px; 
+
+	}
+
+h3{
+
+	color: #FFFFFF;
+	}
+
+
+@media screen and (max-width:768px){
+	.principal{
+		height: auto;
+		width: 100%;
+}
+}

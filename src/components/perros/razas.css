@@ -1,0 +1,17 @@
+.card{
+	max-width: 540px;
+}
+
+
+.btn-blanco {
+  color: #752995;
+  border-color: #752995;
+  font-weight: bold;
+ 
+}
+.btn-blanco:hover{
+  color: #FFFFFF;
+  background-color: #752995;
+  border-color: #752995;
+
+}
