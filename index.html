@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Animalandia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--Header Start-->
+      <header class="mw-100 mt-3 flex-sm-column px-lg-4 px-md-5">
+        <div
+          class="boxHeader d-lg-flex d-md-flex d-sm-column align-items-center justify-content-lg-between justify-content-md-between p-5 p-m-3 p-sm-2"
+        >
+          <div class="logo col-12 col-md-6 col-lg-6">
+            <img class="img-fluid" src="imagenes/logo.jpg" alt="logo" />
+          </div>
+          <div class="buttons mt-3 ">
+            <button type="button" class="fw-bold p-2 rounded-2 btn btn-info" data-bs-toggle="modal" data-bs-target="#modalInicio" data-bs-whatever="@mdo">
+              <i class="bi bi-person-bounding-box"></i> Ingresar</button>
+
+<div class="modal fade" id="modalInicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog m-auto mt-5 p-4 p-lg-5 bg-light rounded" style="--bs-bg-opacity: .8;">
+    <div class="modal-content shadow mb-4 bg-body rounded">
+      <div class="modal-header p-3 text-center">
+        <h5 class="modal-title m-auto fs-2" id="exampleModalLabel">Inicio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body py-3  p-4">
+        <form class="needs-validation" novalidate>
+          <div class="mb-3">
+            <label for="name" class="col-form-label" >Usuario:</label>
+            <input type="text" class="form-control" id="name" required >
+          </div>
+          <div class="mb-3">
+            <label for="password" class="col-form-label" >Contraseña:</label>
+            <input type="password" class="form-control" id="password" required>
+          </div>
+          <div class="">
+            <p class="">Recordarme</p>
+            <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+          
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer py-3 mx-auto text-center">
+        <button type="submit" class="fw-bold p-2 rounded-2 btn btn-info" >Ingresar</button>
+        <button type="button" class="fw-bold p-2 rounded-2 btn btn-outline" data-bs-dismiss="modal">Cerrar</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+            </button>
+            <button type="button" class="fw-bold p-2 rounded-2 btn btn-outline" data-bs-toggle="modal" data-bs-target="#modalRegistro" data-bs-whatever="@mdo">
+              <i class="bi bi-telegram"></i> Registrarse
+            </button>
+            <div class="modal fade" id="modalRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog m-auto mt-5 p-4 p-lg-5 bg-light rounded" style="--bs-bg-opacity: .8;">
+                <div class="modal-content shadow mb-4 bg-body rounded">
+                  <div class="modal-header p-3 text-center">
+                    <h5 class="modal-title m-auto fs-2" id="exampleModalLabel">Registro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body py-3  p-4">
+                    <form class="needs-validation" novalidate>
+                      <div class="mb-3">
+                        <label for="name" class="col-form-label" >Usuario:</label>
+                        <input type="text" class="form-control" id="name" required >
+                      </div>
+                      <div class="mb-3">
+                        <label for="name" class="col-form-label" >Email:</label>
+                        <input type="email" class="form-control" id="name" required >
+                      </div>
+                      <div class="mb-3">
+                        <label for="password" class="col-form-label" >Contraseña:</label>
+                        <input type="password" class="form-control" id="password" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="password" class="col-form-label" >Repetir contraseña:</label>
+                        <input type="password" class="form-control" id="password" required>
+                      </div>
+                 
+                    </form>
+                  </div>
+                  <div class="modal-footer py-3 mx-auto text-center">
+                    <button type="submit" class="fw-bold p-2 rounded-2 btn btn-info" >Registrarse</button>
+                    <button type="button" class="fw-bold p-2 rounded-2 btn btn-outline" data-bs-dismiss="modal">Cerrar</button>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--Header End-->
+
+      <!--Nav Start-->
+      <nav class="navbar sticky-top fw-bold navbar-expand-lg navbar-light p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-pills">
+              <a class="nav-link" href="#Servicios">Servicios</a>
+              <a class="nav-link" href="formulario.html"
+                >Agenda tu cita</a
+              >
+              <a class="nav-link" href="#Contactanos">Contactanos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--Nav End-->
+
+      <main class="">
+        <!--Seccion Inicio Start-->
+        <section
+          id="promo"
+          id="Inicio"
+          class="row align-items-center py-3 shadow mb-4 bg-body rounded"
+        >
+          <article class="col-12 col-md-8 col-lg-7 px-5">
+            <h3>AGENDA UNA CITA PARA RECLAMAR TU PRIMER BAÑO GRATIS</h3>
+            <p>
+              Queremos que conozcas nuestras propuestas de baño para mascotas,
+              donde tenemos espacios dedicados para evitar la contaminación
+              cruzada que puede llegar a existir en nuestra veterinaria. Aplica
+              de lunes a viernes para mascotas que visitan nuestra veterinaria
+              por primera vez <br /><br />
+
+              RECUERDA QUE NUESTRO EQUIPO MEDICO TE CONFIRMARÁ LA CITA
+            </p>
+
+            <a href="formulario.html" class=""
+              ><button type="button" class="btn btn-outline p-2 fw-bold m-3">
+                <i class="bi bi-calendar3-week"></i> Agendar
+              </button></a
+            >
+          </article>
+          <article class="leftArt col-12 col-md-4 col-lg-5 p-2 text-center">
+            <h3 class="leftArt-Title text-white">GRATIS TU PRIMER BAÑO</h3>
+
+            <img class="mt-3" src="imagenes/golden.jpg" />
+          </article>
+        </section>
+        <!--Seccion Inicio End-->
+
+        <!--Seccion Servicios Start-->
+        <section id="Servicios" class="row align-items-center py-3">
+          <h2 class="text-center">Servicios</h2>
+          <hr />
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 p-5 border border-white">
+                <img
+                  src="imagenes/paciente.png"
+                  class="img-fluid card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center m-3">Paciente</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam quidem quos in, quod distinctio excepturi quam
+                    voluptates, qui itaque saepe explicabo alias, aperiam
+                    molestias id minima ducimus laborum nihil pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-5 border border-white">
+                <img
+                  src="imagenes/veterinario.png"
+                  class="img-fluid card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center m-3">Veterinario</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam quidem quos in, quod distinctio excepturi quam
+                    voluptates, qui itaque saepe explicabo alias, aperiam
+                    molestias id minima ducimus laborum nihil pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 p-5 border border-white">
+                <img
+                  src="imagenes/vacunacion.png"
+                  class="img-fluid card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center m-3">Vacunación</h5>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam quidem quos in, quod distinctio excepturi quam
+                    voluptates, qui itaque saepe explicabo alias, aperiam
+                    molestias id minima ducimus laborum nihil pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Seccion Servicios End-->
+
+        <!--Seccion Contactanos Start-->
+        <section id="Contactanos" class="fondo">
+          <div class="fondoColor row text-center py-3">
+            <article
+              class="col-12 col-md-4 col-lg-4 text-white text-center p-3"
+            >
+              <i class="bi bi-geo-alt fs-2"></i><br />
+              <h3>Sedes</h3>
+              <br />
+              <p>Sede Virrey</p>
+              <p>Sede Unicentro (24 horas)</p>
+              <p>Sede Usaquen</p>
+              <p>Sede Rosales</p>
+              <p>Sede 106</p>
+              <p>Sede Contador (Nueva)</p>
+            </article>
+
+            <article class="col-12 col-md-4 col-lg-4 p-3 text-white">
+              <i class="bi bi-tablet fs-2"></i><br />
+              <h3>Lineas de Atención</h3>
+              <br />
+              <p>1234567</p>
+              <p>1234567</p>
+              <p>1234567</p>
+              <p>1234567</p>
+              <p>1234567</p>
+              <p>1234567</p>
+            </article>
+
+            <article class="col-12 col-md-4 col-lg-4 p-3 text-white">
+              <i class="bi bi-envelope-open fs-2"></i><br />
+              <h3>Sedes</h3>
+              <br />
+              <p>Info@veterinaria.com</p>
+              <p>veterinaria1@veterinaria.com</p>
+              <p>veterinaria2@veterinaria.com</p>
+            </article>
+          </div>
+        </section>
+        <!--Seccion Contactanos End-->
+      </main>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+header .boxHeader img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 130px;
+}
+.btn.btn-info {
+  color: #000000;
+  background: #00b2b1;
+}
+.btn.btn-info:hover {
+  background: #ffffff;
+}
+
+.btn.btn-outline {
+  color: #722995;
+  background: #ffffff;
+  border: 1px solid #722995;
+}
+.btn.btn-outline:hover {
+  background: #722995;
+  color: #ffffff;
+}
+
+.modal-header{
+border:none;
+}
+.modal input{
+  box-shadow: 5px 2px 5px grey !important;
+}
+.navbar {
+  background: #722995;
+}
+.navbar-brand,
+a.nav-link {
+  color: #ffffff;
+  padding: 1px 35px !important;
+}
+
+.navbar-brand:hover,
+a.nav-link:hover {
+  color: #c4c4c4;
+}
+#promo {
+  background-image: url(../imagenes/fondo.jpg);
+}
+.leftArt {
+  background: #722995;
+}
+.leftArt-Title {
+  text-shadow: 2px 2px 5px #000000;
+}
+.leftArt img {
+  border-radius: 50%;
+  border: 0.5em solid white;
+}
+h2 {
+  color: #752995;
+  text-shadow: 3px 2px 5px #000000;
+  font-size: 44px;
+}
+hr {
+  width: 250px !important;
+  margin: auto !important;
+  border: 2px solid #41bdb6;
+}
+.card-title {
+  color: #722995;
+}
+
+.fondo {
+  background-image: url(../imagenes/fondo.jpg);
+}
+.fondoColor {
+  background-color: rgba(114, 41, 149, 0.7) !important;
+}
+
+/*:::::::::::::::::::::::::::::::::::ESTILOS FORMULARIO:::::::::::::::::::::::::::;;*/
+.formulario-container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.form-control,
+select,
+label {
+  border-radius: 10px;
+  margin: 5px !important;
+  padding: 5px 20px !important;
+}
+
+.formulario input:not(.form-check-input),
+.form-select {
+  width: 95%;
+  box-shadow: 1px 1px 3px grey !important;
+}
+
+#inputAddress,
+#validationTextarea {
+  width: 98%;
+  box-shadow: 1px 1px 3px grey !important;
+}
+
+/*:::::::::::::::::::::::::::::::::::MEDIAQUERIES:::::::::::::::::::::::::::;;*/
+@media (max-width: 767px) {
+  .boxHeader .buttons {
+    margin-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .formulario input:not(.form-check-input),
+  .form-select,
+  #inputAddress,
+  #validationTextarea {
+    width: 100%;
+  }
+}
