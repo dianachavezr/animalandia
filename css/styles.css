@@ -3,7 +3,7 @@
   padding: 0 !important;
   box-sizing: border-box !important;
 }
-
+/*:::::::::::::::::::::::::::::::::::Header styles:::::::::::::::::::::::::::::::::::::*/
 header .boxHeader img {
   width: 250px;
   margin-bottom: 10px;
@@ -36,6 +36,8 @@ border:none;
 .modal input{
   box-shadow: 5px 2px 5px grey !important;
 }
+
+/*:::::::::::::::::::::::::::::::::::Navbar styles:::::::::::::::::::::::::::::::::::::*/
 .navbar {
   background: #722995;
 }
@@ -49,6 +51,7 @@ a.nav-link {
 a.nav-link:hover {
   color: #c4c4c4;
 }
+/*:::::::::::::::::::::::::::::::::::Section Inicio styles:::::::::::::::::::::::::::::::::::::*/
 #promo {
   background-image: url(../imagenes/fondo.jpg);
 }
@@ -62,6 +65,8 @@ a.nav-link:hover {
   border-radius: 50%;
   border: 0.5em solid white;
 }
+
+/*:::::::::::::::::::::::::::::::::::Section Servicios styles:::::::::::::::::::::::::::::::::::::*/
 h2 {
   color: #752995;
   text-shadow: 3px 2px 5px #000000;
@@ -76,6 +81,8 @@ hr {
   color: #722995;
 }
 
+/*:::::::::::::::::::::::::::::::::::Section Contactanos styles:::::::::::::::::::::::::::::::::::::*/
+
 .fondo {
   background-image: url(../imagenes/fondo.jpg);
 }
@@ -83,7 +90,7 @@ hr {
   background-color: rgba(114, 41, 149, 0.7) !important;
 }
 
-/*:::::::::::::::::::::::::::::::::::ESTILOS FORMULARIO:::::::::::::::::::::::::::;;*/
+/*:::::::::::::::::::::::::::::::::::Formulario Styles:::::::::::::::::::::::::::;;*/
 .formulario-container {
   display: flex;
   justify-content: center;
