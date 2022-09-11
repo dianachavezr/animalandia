@@ -53,7 +53,7 @@ a.nav-link:hover {
 }
 /*:::::::::::::::::::::::::::::::::::Section Inicio styles:::::::::::::::::::::::::::::::::::::*/
 #promo {
-  background-image: url(../imagenes/fondo.jpg);
+  background-image: url(../images/fondo.jpg);
 }
 .leftArt {
   background: #722995;
@@ -84,7 +84,7 @@ hr {
 /*:::::::::::::::::::::::::::::::::::Section Contactanos styles:::::::::::::::::::::::::::::::::::::*/
 
 .fondo {
-  background-image: url(../imagenes/fondo.jpg);
+  background-image: url(../images/fondo.jpg);
 }
 .fondoColor {
   background-color: rgba(114, 41, 149, 0.7) !important;
@@ -116,7 +116,11 @@ label {
   width: 98%;
   box-shadow: 1px 1px 3px grey !important;
 }
+.form-check{
 
+  display: flex;
+  align-items: center;
+}
 /*:::::::::::::::::::::::::::::::::::MEDIAQUERIES:::::::::::::::::::::::::::;;*/
 @media (max-width: 767px) {
   .boxHeader .buttons {
