@@ -1,5 +1,7 @@
 ### Animalandia
 
+Deploy site: https://animalandiaproject.netlify.app/index.html
+
 This project has been created in order to practice Bootstrap 5.2, CSS and HTML.
 
 The project is all responsive and has: Cards, navbar sticky responsive, modals, icons and much more, hope you like it.
@@ -17,7 +19,4 @@ The project is all responsive and has: Cards, navbar sticky responsive, modals, 
 ![image](https://user-images.githubusercontent.com/82002959/189507644-4a7d55d9-6221-4293-b35c-d93e3cb6e774.png)
 
 
-
-
-
-Thans for watching
+Thanks for watching
